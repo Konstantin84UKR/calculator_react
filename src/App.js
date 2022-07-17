@@ -1,4 +1,3 @@
-//import logo from './logo.svg';
 import { useReducer } from "react";
 import DigitButton from "./DigitButton";
 import OperationButton from "./OperationButton";
@@ -100,8 +99,7 @@ function reducer(state, { type, payload }) {
           - 1
         ),
       };
-
-      break;
+   
     case ACTION.EVALUATE:
       if (
         state.currentOperand == null ||
@@ -158,8 +156,6 @@ function App() {
     reducer,
     { currentOperand: null, previousOperand: null }
   );
-
-  //dispatch({type:ACTION.ADD_DIGIT,payload:{digit:1}})
 
   return (
     <div className="calculator-grid">
