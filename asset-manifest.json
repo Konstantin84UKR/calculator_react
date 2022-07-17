@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Konstantin84UKR/calculator_react/static/css/main.05d1f193.css",
+    "main.js": "/Konstantin84UKR/calculator_react/static/js/main.6071761e.js",
+    "index.html": "/Konstantin84UKR/calculator_react/index.html",
+    "main.05d1f193.css.map": "/Konstantin84UKR/calculator_react/static/css/main.05d1f193.css.map",
+    "main.6071761e.js.map": "/Konstantin84UKR/calculator_react/static/js/main.6071761e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05d1f193.css",
+    "static/js/main.6071761e.js"
+  ]
+}
