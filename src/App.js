@@ -63,9 +63,7 @@ function reducer(state, { type, payload }) {
       if (state.currentOperand == null || state.currentOperand === "") {
         return {
           ...state,
-          operation: payload.operation,
-          // previousOperand: state.currentOperand,
-          //currentOperand: null,
+          operation: payload.operation
         };
       }
 
